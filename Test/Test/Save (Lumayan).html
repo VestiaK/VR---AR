@@ -12,7 +12,7 @@
                 id="multi-marker"
                 type="pattern"
                 preset="custom"
-                url="https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Marker/Fnaf.patt"
+                url="https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Marker/fnaf2.patt"
                 emitevents="true">
             <!-- Load the Freddy 3D model with animation -->
             <a-entity 
@@ -20,7 +20,7 @@
                 gltf-model="url(https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Model/Freddy/freddy.glb)"
                 position="-1 0 0"
                 scale="0.5 0.5 0.5"
-                animation-mixer="clip: oldfreddy_wires_skeleton|deactiv; loop: once; clampWhenFinished: true;">
+                >
             </a-entity>
             <!-- Load the Bonnie 3D model with animation -->
             <a-entity 
@@ -53,8 +53,7 @@
                 id="freddyModel"
                 gltf-model="url(https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Model/Freddy/freddy.glb)"
                 scale="0.5 0.5 0.5"
-                animation-mixer="clip: oldfreddy_wires_skeleton|deactiv; loop: once; clampWhenFinished: true;">
-                <a-sound id="freddy-sound" src="https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/BGM/Freddy BGM.mp3" autoplay="false"></a-sound>
+                >
             </a-entity>
         </a-marker>
 
@@ -72,8 +71,7 @@
                 gltf-model="url(https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Model/Bonnie/bonnie.glb)"
                 scale="0.5 0.5 0.5"
                 animation-mixer="clip: oldbonnie_bowtie_skeleton|deactiv; loop: once; clampWhenFinished: true;">
-                <a-sound id="bonnie-sound" src="https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/BGM/Bonnie BGM.mp3" autoplay="false"></a-sound>
-            </a-entity>
+                
         </a-marker>
 
         <!-- Define the Foxy marker -->
@@ -90,7 +88,7 @@
                 gltf-model="url(https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/Model/Foxy/foxy.glb)"
                 scale="0.3 0.3 0.3"
                 animation-mixer="clip: oldfoxy_wire_skeleton|deactiv; loop: once; clampWhenFinished: true;">
-                <a-sound id="foxy-sound" src="https://raw.githubusercontent.com/VestiaK/VR---AR/main/Test/Test/BGM/Foxy BGM.mp3" autoplay="false"></a-sound>
+
             </a-entity>
         </a-marker>
         <!-- Define the camera -->
